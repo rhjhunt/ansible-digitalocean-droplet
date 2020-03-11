@@ -1,0 +1,21 @@
+---
+- name: Create a DigitalOcean droplet
+  digital_ocean_droplet:
+    backups: "{{ digitalocean_backups }}"
+    id: "{{ digitalocean_id }}"
+    image: "{{ digitalocean_image }}"
+    ipv6: "{{ digitalocean_ipv6 }}"
+    monitoring: "{{ digitalocean_monitoring }}"
+    name: "{{ digitalocean_name }}"
+    oauth_token: "{{ digitalocean_oauth_token }}"
+    private_networking: "{{ digitalocean_private_networking }}"
+    region: "{{ digitalocean_region }}"
+    size: "{{ digitalocean_size }}"
+    ssh_keys: "{{ digitalocean_ssh_keys }}"
+    state: "{{ digitalocean_state }}"
+    tags: "{{ digitalocean_tags }}"
+    unique_name: "{{ digitalocean_unique_name }}"
+    user_data: "{{ digitalocean_user_data }}"
+    volumes: "{{ digitalocean_volumes }}"
+    wait: "{{ digitalocean_wait }}"
+    wait_timeout: "{{ digitalocean_wait_timeout }}"

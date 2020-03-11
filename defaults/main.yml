@@ -1,0 +1,19 @@
+---
+digitalocean_backups: false
+digitalocean_id: []
+digitalocean_image: []
+digitalocean_ipv6: false
+digitalocean_monitoring: false
+digitalocean_name: []
+digitalocean_oauth_token: []
+digitalocean_private_networking: []
+digitalocean_region: []
+digitalocean_size: []
+digitalocean_ssh_keys: []
+digitalocean_state: present
+digitalocean_tags: []
+digitalocean_unique_name: false
+digitalocean_user_data: []
+digitalocean_volumes: []
+digitalocean_wait: true
+digitalocean_wait_timeout: 120

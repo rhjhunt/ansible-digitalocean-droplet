@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible-digitalocean-droplet"
+      include_role:
+        name: "ansible-digitalocean-droplet"
